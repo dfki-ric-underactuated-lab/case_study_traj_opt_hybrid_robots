@@ -1,6 +1,6 @@
 # Investigations into Exploiting the Full Capabilities of a Series-Parallel Hybrid Humanoid using Whole Body Trajectory Optimization
 
-This repo contains the details of our investigation for a weightlifting task on RH5 Manus robot presented in the paper [Investigations into Exploiting the Full Capabilities of a Series-Parallel Hybrid Humanoid using Whole Body Trajectory Optimization](https://dfki-ric-underactuated-lab.github.io/case_study_traj_opt_hybrid_robots/). The paper was accepted at the [IROS 2023 Conference](https://ieee-iros.org/). A preprint is available on [Researchgate](https://www.researchgate.net/publication/372677906_Investigations_into_Exploiting_the_Full_Capabilities_of_a_Series-Parallel_Hybrid_Humanoid_using_Whole_Body_Trajectory_Optimization).  
+This repo contains the details of our investigation for a weightlifting task on RH5 Manus robot presented in the paper [Investigations into Exploiting the Full Capabilities of a Series-Parallel Hybrid Humanoid using Whole Body Trajectory Optimization](https://dfki-ric-underactuated-lab.github.io/case_study_traj_opt_hybrid_robots/). The paper was accepted at the [IROS 2023 Conference](https://ieee-iros.org/). A preprint is available on [Researchgate](https://www.researchgate.net/publication/372677906_Investigations_into_Exploiting_the_Full_Capabilities_of_a_Series-Parallel_Hybrid_Humanoid_using_Whole_Body_Trajectory_Optimization). The accompanying video is also available on [YouTube](https://www.youtube.com/watch?v=qcJiLLTbDmk&ab_channel=dfkiscientifichighlights). 
 
 ### Citation
 
@@ -18,11 +18,11 @@ M. Boukheddimi, R. Kumar, S. Kumar, J. Carpentier and F. Kirchner, "Investigatio
 
 </div>
 <div align="center">
-  <img src="docs/static/ulab.gif" style="width:180px">
   <img src="docs/static/logo.svg" style="width:180px">
+  <img src="docs/static/ulab.gif" style="width:180px">
   <img src="docs/static/humaneai.png" style="width:180px">  
-  <br class=”blank” />
-  <img src="docs/static/KiMMI-Logo.png" style="width:180px"> 
   <img src="docs/static/MRock-Logo.png" style="width:180px"> 
-  <img src="docs/static/VeryHuman_Logo.jpg" style="width:180px">
+  <br class=”blank” />
+  <img src="docs/static/KiMMI-Logo.png" style="width:150px"> 
+  <img src="docs/static/VeryHuman_Logo.jpg" style="width:150px">
 </div>
