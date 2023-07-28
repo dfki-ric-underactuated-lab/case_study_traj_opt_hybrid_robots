@@ -8,7 +8,7 @@ M. Boukheddimi, R. Kumar, S. Kumar, J. Carpentier and F. Kirchner, "Investigatio
 
     @misc{meRo2023,  
     author={Boukheddimi, Melya and Kumar, Rohit and Kumar, Shivesh and Carpentier, Justin and Kirchner, Frank},  
-    title={Modular and Hybrid Numerical-Analytical Approach - A Case Study on Improving Computational Efficiency for Series-Parallel Hybrid Robots},   
+    title={Investigations into Exploiting the Full Capabilities of a Series-Parallel Hybrid Humanoid using Whole Body Trajectory Optimization},   
     year={2023},  
     volume={},  
     number={},  
@@ -18,12 +18,11 @@ M. Boukheddimi, R. Kumar, S. Kumar, J. Carpentier and F. Kirchner, "Investigatio
 
 </div>
 <div align="center">
-  <img src="docs/static/ulab.gif" style="width:150px">
-  <img src="docs/static/logo.svg" style="width:150px">
+  <img src="docs/static/ulab.gif" style="width:180px">
+  <img src="docs/static/logo.svg" style="width:180px">
+  <img src="docs/static/humaneai.png" style="width:180px">  
   <br class=”blank” />
-  <img src="docs/static/KiMMI-Logo.png" style="width:120px">  
-  <img src="docs/static/VeryHuman_Logo.jpg" style="width:120px">
-  <br class=”blank” />
-  <img src="docs/static/humaneai.png" style="width:150px">
-  <img src="docs/static/MRock-Logo.png" style="width:150px">  
+  <img src="docs/static/KiMMI-Logo.png" style="width:180px"> 
+  <img src="docs/static/MRock-Logo.png" style="width:180px"> 
+  <img src="docs/static/VeryHuman_Logo.jpg" style="width:180px">
 </div>
