@@ -20,8 +20,10 @@ M. Boukheddimi, R. Kumar, S. Kumar, J. Carpentier and F. Kirchner, "Investigatio
 <div align="center">
   <img src="docs/static/ulab.gif" style="width:150px">
   <img src="docs/static/logo.svg" style="width:150px">
-  <img src="docs/static/VeryHuman_Logo.jpeg" style="width:120px">
+  <br class=”blank” />
+  <img src="docs/static/KiMMI-Logo.png" style="width:120px">  
+  <img src="docs/static/VeryHuman_Logo.jpg" style="width:120px">
+  <br class=”blank” />
   <img src="docs/static/humaneai.png" style="width:150px">
-  <img src="docs/static/KiMMI-Logo.png" style="width:110px">
   <img src="docs/static/MRock-Logo.png" style="width:150px">  
 </div>
