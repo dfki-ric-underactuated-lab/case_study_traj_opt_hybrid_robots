@@ -76,9 +76,61 @@ Optimization</h1>
 <div class="header_links">
   <a href="https://github.com/dfki-ric-underactuated-lab/case_study_traj_opt_hybrid_robots"><i class="fa fa-github" style="font-size:36px; padding:1em;"></i></a>
   <a href="https://www.researchgate.net/publication/372677906_Investigations_into_Exploiting_the_Full_Capabilities_of_a_Series-Parallel_Hybrid_Humanoid_using_Whole_Body_Trajectory_Optimization"><i class="fa fa-file-pdf-o" style="font-size:36px; padding:1em;"></i></a>
+  <a href="https://www.youtube.com/watch?v=qcJiLLTbDmk&amp;ab_channel=dfkiscientifichighlights"><i class="fa fa-youtube-play" style="font-size:36px; padding:1em;"></i></a>
 </div>
 <video src="video/IROS_2023_weightlifting_final.mp4" controls="controls" style="max-width: 48em;">
 </video>
+<h2 id="introduction">Introduction</h2>
+<p>Recent developments in robotics have embraced closed-loop mechanisms
+in various robots, such as exoskeletons, multi-legged robots, and
+humanoid robots, due to their advantages in stiffness, payload capacity,
+and precision. Series-parallel hybrid robots, combining serial chain and
+parallel mechanisms, aim to mimic human and animal capabilities. While
+trajectory optimization approaches are powerful for motion planning,
+series-parallel hybrid robots pose challenges due to their kinematic
+complexities. Existing solvers for parallel robots suffer from
+difficulties in modeling and controlling loop closure constraints,
+making real-time control impractical. This work proposes a case study to
+address loop-closure constraints within the trajectory optimization
+process using Pinocchio, a software with proximal formulation of
+constrained dynamics. The study employs the differential dynamics
+programming (DDP) approach to generate optimal trajectories for the RH5
+Manus humanoid robot, showcasing improved performance over serial
+abstractions in simulation and real-world experiments. This research is
+particularly valuable for humanoid robots with electric actuation,
+seeking human-like agility by pushing the robot to its limits.</p>
+<h2 id="experimental-design">Experimental Design</h2>
+The experimental design focuses on the RH5 Manus, a fixed base
+series-parallel hybrid robot with multiple kinematic loops, used for a
+weight lifting task through whole body trajectory optimization. The
+robot comprises 61 spanning tree joints, including 20 independent and 20
+active joints, forming a tree abstraction with 10 submechanisms. Among
+these submechanisms, 5 are serial chain submechanisms, and 5 are
+closed-loop submechanisms. The closed-loop mechanisms consist of a multi
+closed-loop torso mechanism actuated by two prismatic actuators for
+pitch and roll movements, a planar closed-loop elbow mechanism actuated
+by a prismatic actuator for elbow rotation, and a complex multi-loop
+closure wrist mechanism actuated by two prismatic actuators for wrist
+pitch and yaw movements.
+<figure>
+<img src="static/figures/rh5v2-reducedNew.png" width="100%" alt="">
+<figcaption>
+Fig.1 - RH5 Manus Upper Body
+</figcaption>
+</figure>
+To efficiently handle the complexity of multiple closed-loop mechanisms
+in a robot, a tree-abstraction is commonly employed. The tree
+abstraction of the RH5 Manus robot includes only the independent
+coordinates (green edges) from the topological graph, resulting in a
+system with 20 degrees of freedom (m = 20). Table I and Table II
+provides the joint limits for the closed-loop mechanisms in actuation
+space and independent joints space. Choosing conservative torque limits
+may underestimate the robot’s capabilities, while selecting ambitious
+upper limits would overestimate them.
+<figure>
+<img src="static/figures/table-1.png" width="45%" alt="">
+<img src="static/figures/table-2.png" width="45%" alt="">
+</figure>
 <footer>
   <img src="static/logo.svg" style="width:281px">
   <img src="static/ulab.gif" style="width:225px">
